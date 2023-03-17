@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- -------------------------------- fonts -------------------------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- --------------------------------- css --------------------------------- -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" media="(min-width:768px)" href="css/tablet.css" >
+  <link rel="stylesheet" media="(min-width:1080px)" href="css/desktop.css" >
+
+  <!-- --------------------------------- cdn --------------------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Encriptador</title>
+  
+</head>
+<body>
+  <header>
+    <picture>
+      <img class="logo" src="images/logo_alura.svg" alt="log de  alura" >
+    </picture>
+
+  </header>
+  <main>
+    <section class="container-in">
+      <div class="container-entrada">
+        
+        <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        <button class="container-entrada__botonn-pegar" onclick="pasteClipboard()">
+           <i class="fa-sharp fa-regular fa-paste"></i></button>
+      
+    </div>
+
+    <div>
+      <h6 class="informacion"> <i class="fa-sharp fa-solid fa-circle-info">
+      </i>  Solo letras minúsculas y sin acentos</h6>
+      <div class="botones">
+        <button class="btn-encriptador" onclick="btnEncriptar()">Encriptar</button>
+        <button class="btn-desencriptador" onclick="btnDesencriptar()">Desencriptador</button>
+      </div>
+    </div>
+      
+     
+    </section>
+    <section class="container-salida">
+      <textarea class= "mensaje-area" cols="20" rows="10"></textarea>
+      
+        <button class="copiar btn-copiar" onclick="copiarTexto()">Copiar</button>
+      
+    </section>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>

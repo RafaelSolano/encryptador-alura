@@ -1,0 +1,57 @@
+
+.body{
+max-width: 1920px;
+margin-left: 1.2rem;
+
+
+  
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.container-in{
+width: 70%;
+height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.container-entrada{
+  display: flex;
+  align-items: start;
+  
+}
+.container-entrada__botonn-pegar{
+  order: -1;
+}
+
+
+.container-salida{
+  width: 30%;
+  height: 90vh;
+  justify-content: space-between;
+  margin-top: 0;
+  background: #ffff;
+  border-radius: 32px;
+}
+
+.btn-encriptador,
+.btn-desencriptador,
+.btn-copiar{
+  margin-bottom: 3.4rem;
+  transition: 250ms;
+}
+
+.btn-copiar:hover,
+.btn-desencriptador:hover{
+  background-color: #0A3871;
+  color: white;
+}
+
+.btn-encriptador:hover{
+  background-color:white;
+  color: #0A3871;
+}

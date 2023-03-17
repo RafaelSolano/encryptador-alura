@@ -1,0 +1,41 @@
+.container-entrada{
+align-items: center;
+
+}
+.container-entrada__botonn-pegar{
+  order: -1;
+}
+
+
+.mensaje-area,
+.text-area{
+  width: 90%;
+  height: 32rem;
+
+}
+.informacion{
+  text-align: start;
+  margin-left: 2.4rem;
+}
+.botones{
+flex-direction: row;  
+justify-content: space-around;
+}
+
+.btn-encriptador,
+.btn-desencriptador{
+  width: 45%;
+  height: 6.7rem;
+
+}
+
+.mensaje-area{
+
+  background-position: center;
+}
+
+.btn-copiar{
+  width: 90%;
+  height: 6.7rem;
+}
+
